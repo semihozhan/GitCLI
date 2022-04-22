@@ -1,5 +1,30 @@
-git add
-git commit -m "commit detail"
-git push origin master
-git status
-git log
+Git
+
+git config --global user.name "your_username"
+git config --global user.email "your_email_address@example.com"
+
+git config --global --list  check conf
+
+…or create a new repository on the command line
+echo "# GitCLI" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/semihozhan/GitCLI.git
+git push -u origin main
+
+
+git init -> yeni repo oluşturma
+
+git log -> git log’dan çıkamamak
+git status -> geçmiş commitler
+
+
+git’e gönderilmesini istemediğimiz dosyalar ? exlude 
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/semihozhan/GitCLI.git
+git branch -M main
+git push -u origin main
