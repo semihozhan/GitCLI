@@ -31,3 +31,7 @@ git push -u origin main
 
 
 revert reset
+
+
+ignore etmeden gizleme
+git update-index --assume-unchanged <dosya_adi>
