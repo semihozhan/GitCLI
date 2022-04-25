@@ -28,3 +28,6 @@ git’e gönderilmesini istemediğimiz dosyalar ? exlude
 git remote add origin https://github.com/semihozhan/GitCLI.git
 git branch -M main
 git push -u origin main
+
+
+revert reset
